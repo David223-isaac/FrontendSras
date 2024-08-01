@@ -1,0 +1,102 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f0f2f5;
+  }
+  
+  .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .custom-tabs .ant-tabs-content-holder {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .custom-tabs .ant-tabs-tab {
+    margin: 0 5px;
+    padding: 10px 20px;
+    background-color: #d4d4d373;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px; /* Restaurar border-radius */
+    flex-grow: 1;
+  }
+  
+  .custom-tabs .ant-tabs-tab-active {
+    background-color: #4448FF;
+    color: white;
+    border-radius: 10px; /* Restaurar border-radius */
+  }
+  
+  .custom-tabs .ant-tabs-tab:hover {
+    color: #E21BEF;
+    font-size: 22px;
+  }
+  
+  .custom-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: white;
+  }
+  
+  .custom-tabs .ant-tabs-nav-list {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 25px;
+    background-color: #ffffff;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .custom-tabs .ant-tabs-bottom > .ant-tabs-nav:before {
+    border: none;
+  }
+  
+  .custom-tabs .ant-tabs-nav {
+    border-top: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 1;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ant-tabs-tab .anticon {
+    font-size: 25px;
+    margin-right: 0; /* Centrar íconos */
+  }
+  
+  /* Media queries for larger screens */
+  @media (min-width: 768px) {
+    .content {
+      padding: 20px;
+    }
+  
+    .custom-tabs .ant-tabs-nav-list {
+      justify-content: space-between; /* Distribuir uniformemente */
+      padding: 0 10%; /* Ajustar padding para asegurar distribución */
+    }
+  
+    .custom-tabs .ant-tabs-tab {
+      flex-grow: 1;
+      max-width: none; /* Asegurar que los tabs tomen el espacio disponible */
+      padding: 10px 20px;
+      margin: 0 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center; /* Asegurar que los íconos estén centrados */
+    }
+  
+    .ant-tabs-tab .anticon {
+      font-size: 20px;
+      margin-right: 0; /* Asegurar que los íconos estén centrados */
+    }
+  }
+  

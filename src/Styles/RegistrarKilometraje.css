@@ -1,0 +1,71 @@
+/* RegistrarKilometraje.css */
+.container {
+  position: relative;
+  min-height: 100vh;
+  background-color: #178f7d;
+  border-radius: 20px;
+  overflow: hidden; /* Asegura que el contenido no se desborde del contenedor */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+
+.title {
+  color: white;
+  margin: 20px 0;
+  font-size: 1.5rem !important;
+  text-align: center;
+  padding-bottom: 1rem !important;
+}
+
+.icon {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 500px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.header{
+  width: 100% !important;
+  border-radius: 30px !important;
+}
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .form-container {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.2rem;
+  }
+
+  .icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .form-container {
+    padding: 10px;
+  }
+}

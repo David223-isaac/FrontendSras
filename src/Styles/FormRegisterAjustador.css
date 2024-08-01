@@ -1,0 +1,56 @@
+.FormRegister{
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.ImageRegAjustador{
+    height: 200px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    filter: drop-shadow(0 3px 0 rgba(255, 250, 250, 0.699));
+
+}
+.circle-background {
+    position: absolute;
+    top: 100%;
+    left: 30%;
+    width: 400px;
+    height: 550px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    opacity: 0.1;
+  }
+
+.InputRegAju{
+    background-color: black;
+}
+.ImgRegisterUser{
+    height: 200px;
+    width: 200px;
+    align-self: center;
+    background-color: #ffffff00;
+    margin-bottom: 1rem;
+}
+
+.ImgRegisterUserAuto{
+    height: 210px;
+    width: 200px;
+    align-self: center;
+    background-color: #ffffff00;
+    margin-bottom: 1rem;
+    border-radius: 200px;
+    background-color: #ffffff04;
+    margin-bottom: 3rem;
+}
+
+.ImgRegisterUserCelular{
+    height: 210px;
+    width: 200px;
+    align-self: center;
+    background-color: #ffffff00;
+    margin-bottom: 1rem;
+    background-color: #ffffff04;
+    margin-bottom: 3rem;
+}

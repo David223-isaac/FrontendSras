@@ -1,0 +1,32 @@
+.ImgLogin{
+    margin-top: 3rem;
+    height: 200px;
+    /* filter: invert(100%) brightness(2) contrast(100%); */
+    /* filter: invert(85%) sepia(100%) saturate(0%) brightness(200%) contrast(100%); */
+    margin-bottom: 3rem;
+    /* background-color: rgba(255, 0, 0, 0.288); */
+    filter: drop-shadow(0 2px 5px rgba(12, 12, 12, 0.9));
+
+}
+.circle-background {
+    position: absolute;
+    top:40%;
+    left: 30%;
+    width: 400px;
+    height: 550px;
+    background-color: #855d07;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    opacity: 1;
+}
+.BtnLogin{
+    margin-top: 1rem;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+}
+.InputLoin{
+    border-radius: 10px;
+    height: 40px;
+}

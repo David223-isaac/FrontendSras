@@ -1,0 +1,95 @@
+.Buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px; /* Ajusta la altura según tus necesidades */
+    background-color: #dededf; /* Color de fondo del botón */
+    border: none; /* Sin borde */
+    border-radius: 15px; /* Bordes redondeados */
+    color: #040808; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    font-family: "PingFang SC", "Microsoft YaHei", Arial, sans-serif; /* Tipografías de Ant Design */
+    font-size: 18px; /* Tamaño de la fuente */
+    font-weight: 700; /* Grosor de la fuente */
+    /* Agrega una sombra suave */
+    box-shadow: 0px 2px 4px rgba(5, 0, 3, 0.74);
+}
+
+.Buttons p {
+    margin: 0;
+    text-align: center;
+}
+
+.HomeImage{
+    margin-top: 3rem;
+    border-radius: 100px;
+    height: 250px;
+    width: 200px;
+    /* filter: invert(100%) brightness(2) contrast(100%); */
+    /* filter: invert(85%) sepia(100%) saturate(0%) brightness(200%) contrast(100%); */
+    margin-bottom: 3rem;
+    /* background-color: rgba(255, 0, 0, 0.288); */
+    border-radius: 100px;
+    filter: drop-shadow(0 2px 5px rgba(12, 12, 12, 0.411));
+}
+.Welcome{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Arial;
+}
+.TextFooter{
+    color:white;
+    padding: '1rem';
+    font-size: 13px;
+    font-weight: 700;
+}
+.ThreePointsHome{
+    font-size: 2rem;
+    color: white;
+    margin-left: 80%;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    font-family: "PingFang SC", "Microsoft YaHei", Arial, sans-serif; /* Tipografías de Ant Design */
+}
+
+
+
+
+
+
+.circle-background {
+    position: absolute;
+    top: 45%;
+    left: 1%;
+    width: 400px;
+    height: 550px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    opacity: 0.1;
+  }
+  
+.ThreePointsHome {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+}
+
+.HomeImage {
+  z-index: 1;
+}
+
+.Welcome {
+  z-index: 1;
+}
+
+.Buttons {
+  z-index: 1;
+}
+
+.TextFooter {
+  z-index: 1;
+}

@@ -1,0 +1,45 @@
+/* Ensure the entire screen has the desired background color */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5; /* Adjust this color as needed */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height */
+    background-color: #f0f2f5; /* Background color matching the body */
+  }
+  
+  .table-container {
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow-x: auto; /* Horizontal scroll for small screens */
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .table-container {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .ant-table {
+      font-size: 14px; /* Smaller font size for smaller screens */
+    }
+  
+    .ant-table-cell {
+      padding: 8px; /* Reduce cell padding on smaller screens */
+    }
+  
+    .ant-table img {
+      max-width: 80px; /* Smaller profile images on smaller screens */
+    }
+  }
+  
